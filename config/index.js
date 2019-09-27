@@ -1,6 +1,6 @@
 module.exports = {
     // 是否启用eslint
-    useESLint: true,
+    useESLint: false,
     // 是否启用px2rem，自动把px转化为rem（移动端）
     usePx2rem: false,
     // px2rem自定义配置
