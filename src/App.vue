@@ -1,18 +1,17 @@
 <template>
   <div>
     <div class="box" />
-    <h1>Hello,world</h1>
+    <h1>Hello,CIdsafsamfklsadmklf mklsam fklsakld mkl</h1>
+    <h1>Hello,CIdsafsamfklsadmklf mklsam fklsakld mkl</h1>
+    <h1>Hello,CIdsafsamfklsadmklf mklsam fklsakld mkl</h1>
+    <h1>Hello,CIdsafsamfklsadmklf mklsam fklsakld mkl</h1>
     <h1>Hello, {{ msg }}</h1>
     <ul>
       <li>
-        <router-link to="/">
-          页面1
-        </router-link>
+        <router-link to="/">页面1</router-link>
       </li>
       <li>
-        <router-link to="/2">
-          页面2
-        </router-link>
+        <router-link to="/2">页面2</router-link>
       </li>
     </ul>
     <router-view />
@@ -22,19 +21,19 @@
 </template>
 
 <script>
-import JsxComponent from 'components/Jsx';
+import JsxComponent from "components/Jsx";
 export default {
   components: {
     JsxComponent
   },
   data() {
     return {
-      msg: 'Orion'
+      msg: "Orion"
     };
   },
   computed: {
     storeMsg() {
-      return this.$store.getters['demo/msgUpperCase'];
+      return this.$store.getters["demo/msgUpperCase"];
     }
   }
 };
